@@ -1,3 +1,5 @@
+import Messages from "./Messages";
+
 function MessageContainer() {
   return (
     <div className="md:min-w-[450px] flex flex-col">
@@ -8,8 +10,8 @@ function MessageContainer() {
           <span className="text-gray-900 font-bold">John doe</span>
         </div>
 
-        {/* <Messages />
-				<MessageInput /> */}
+        <Messages />
+        {/* <MessageInput /> */}
       </>
     </div>
   );
